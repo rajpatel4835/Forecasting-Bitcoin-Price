@@ -3,11 +3,11 @@
 ## Overview
 This repository contains code for predicting Bitcoin prices based on sentiment analysis of Twitter data.
 
--Preprocessing Twitter data from '/kaggle/input/bitcoin-tweets/Bitcoin_tweets.csv'.
--Performing sentiment analysis on the tweets using NLTK's VADER sentiment analyzer.
--Fetching Bitcoin's historical prices for the last 90 days based on recent tweets.
--Merging hourly sentiment data with Bitcoin historical prices.
--Implementing an LSTM-based deep learning model to predict Bitcoin prices based on sentiment and historical price data.
+- Preprocessing Twitter data from '/kaggle/input/bitcoin-tweets/Bitcoin_tweets.csv'.
+- Performing sentiment analysis on the tweets using NLTK's VADER sentiment analyzer.
+- Fetching Bitcoin's historical prices for the last 90 days based on recent tweets.
+- Merging hourly sentiment data with Bitcoin historical prices.
+- Implementing an LSTM-based deep learning model to predict Bitcoin prices based on sentiment and historical price data.
 
 ## Dependencies
 - Python 3.x
@@ -27,14 +27,14 @@ This repository contains code for predicting Bitcoin prices based on sentiment a
 ## Folder Structure
 
 ```
-- `PreProcess.py`: Preprocessing Twitter data, sentiment analysis, and fetching historical Bitcoin prices.
-- `MergeData.py`: Merging sentiment data with Bitcoin historical prices.
-- `model.py`: Contains functions to create and train the LSTM-based model for price prediction.
-- `test.py`: Generates predictions and visualizes Bitcoin price predictions.
-- `raw_data/`: Directory for raw Bitcoin tweets data.
-- `cleaned_data/`: Directory for cleaned data output (sentiment and historical prices).
-- `merged_data/`: Directory for merged data output.
-- `results/`: Directory for model results and visualizations.
+ `PreProcess.py`: Preprocessing Twitter data, sentiment analysis, and fetching historical Bitcoin prices.
+ `MergeData.py`: Merging sentiment data with Bitcoin historical prices.
+ `model.py`: Contains functions to create and train the LSTM-based model for price prediction.
+ `test.py`: Generates predictions and visualizes Bitcoin price predictions.
+ `raw_data/`: Directory for raw Bitcoin tweets data.
+ `cleaned_data/`: Directory for cleaned data output (sentiment and historical prices).
+ `merged_data/`: Directory for merged data output.
+ `results/`: Directory for model results and visualizations.
 ```
 
 ## Training and test
